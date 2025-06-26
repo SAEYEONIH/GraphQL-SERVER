@@ -3,7 +3,7 @@ const dbWorks = require('../dbWorks')
 
 const typeDefs = gql`
     type Supply {
-        id: String
+        id: ID!
         team: Int
     }
 `
